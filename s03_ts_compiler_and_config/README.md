@@ -166,7 +166,7 @@ The default objects and features available will depend on your `target`.
 
 `SourceMap` helps us with debugging and development.
 
-The map files generated act as a **bridge** in the modern browsers and the developer tools to connect the JS files to the input TS files. **We can even breakpoint in our TS file.**
+The map files generated act as a **bridge** in the modern browsers and the developer tools to connect the JS files to the input TS files. **We can even add breakpoint in our TS file using Chrome debugger. This helps us to debug the typeScript files**
 
 ```js
 {
@@ -182,7 +182,7 @@ The map files generated act as a **bridge** in the modern browsers and the devel
 
 ### rootDir and outDir
 
-A good prcatice is to set up a `src` folder with all the TS files (and folders) and a `dist` folder where all the JS file compiled/generated are.
+A good practice is to set up a `src` folder with all the TS files (and folders) and a `dist` folder where all the JS file compiled/generated are.
 
 ```js
 {
