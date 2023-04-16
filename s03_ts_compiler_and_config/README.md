@@ -166,7 +166,7 @@ The default objects and features available will depend on your `target`.
 
 `SourceMap` helps us with debugging and development.
 
-The map files generated act as a **bridge** in the modern browsers and the developer tools to connect the JS files to the input TS files. **We can even add breakpoint in our TS file using Chrome debugger. This helps us to debug the typeScript files**
+The map files generated act as a **bridge** in the modern browsers and the developer tools to connect the JS files to the input TS files. We can even add breakpoint in our TS file using Chrome debugger. This helps us to debug the typeScript files
 
 ```js
 {
@@ -199,7 +199,7 @@ A good practice is to set up a `src` folder with all the TS files (and folders) 
 
 ### Stop Emitting Files on Compilation Errors
 
-`noEmitOnError` prevents code to be compiled if there is an error.
+`noEmitOnError` prevents the generation of all the JS files if in case there is an error in the TS file.
 
 ```js
 {
